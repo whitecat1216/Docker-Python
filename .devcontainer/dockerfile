@@ -1,0 +1,5 @@
+FROM python:latest
+
+RUN pip install pandas
+RUN pip install openpyxl
+RUN pip install xlrd
